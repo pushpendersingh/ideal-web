@@ -1,0 +1,40 @@
+body{
+  font-family: Arial;
+  color:#313131;
+}
+
+.top-header .phone{
+  margin-right:.25rem;
+}
+.icon-img{
+  width:1.5rem;
+  height: 1.5rem;
+}
+.top-header {
+
+}
+.bg-grey{
+  background-color: #9d9d9d;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #313131;
+    border-bottom: .15rem solid transparent;
+    padding: 0;
+    font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-item {
+    padding: .5rem 0 .5rem 1.25rem;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #2160a8;
+    border-color: #f2c334;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #2160a8;
+    border-color: #f2c334;
+}
+.navbar {
+    padding: 3rem 1rem;
+}
