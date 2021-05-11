@@ -298,6 +298,16 @@ footer .nav-link:hover, footer .nav-link.active {
 @media (max-width: 1199.98px) {}
 
 @media (max-width: 991.98px) {
+  .h1, h1 {
+      font-size: 2rem;
+  }
+  .h2, h2 {
+    font-size: 1.75rem;
+}
+
+}
+
+@media (max-width: 767.98px) {
   .top-header {
     font-size: 0.9rem;
   }
@@ -312,26 +322,37 @@ footer .nav-link:hover, footer .nav-link.active {
   .navbar-brand img {
     width: 9.5rem;
   }
+
   .navbar-collapse {
     margin: 0 -15px;
     background-color: #9d9d9d;
-    padding: 2rem 0;
-}
-.navbar-nav {
+    padding: 1.5rem 0;
+    position: absolute;
+    top: 100%;
+    right: 0px;
+    z-index: 111;
+    left: 0px;
+  }
+
+  .navbar-nav {
     align-items: center;
-}
-.navbar-light .navbar-nav .nav-link {
+  }
+
+  .navbar-light .navbar-nav .nav-link {
     color: #fff;
     font-size: 1rem;
     border: 0;
-}
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  }
+
+  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: #f2c334;
-}
-.dropdown.search {
+  }
+
+  .dropdown.search {
     position: unset;
-}
-.search .dropdown-menu {
+  }
+
+  .search .dropdown-menu {
     min-width: 16rem;
     width: 100%;
     padding: 0;
@@ -340,10 +361,8 @@ footer .nav-link:hover, footer .nav-link.active {
     color: #313131;
     border: 3px solid #676767;
     border-radius: 0;
-}
-}
+  }
 
-@media (max-width: 767.98px) {
   .h1, h1 {
     font-size: 1.75rem;
   }
@@ -380,19 +399,22 @@ footer .nav-link:hover, footer .nav-link.active {
     justify-content: center;
     padding-top: .4rem;
   }
+
   footer .nav-link {
     padding: .35rem .75rem;
     text-align: center;
-}
-.grey-hr {
+  }
+
+  .grey-hr {
     width: 8rem;
     background: #676767;
     height: .1rem;
     margin: 1rem 0;
-}
-.copy{
-  font-size:.8rem;
-}
+  }
+
+  .copy {
+    font-size: .8rem;
+  }
 }
 
 @media (max-width: 575.98px) {}
