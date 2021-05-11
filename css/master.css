@@ -19,6 +19,27 @@ body {
   font-size: 2.4rem;
 }
 
+.h4, h4 {
+  color: #565656;
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+a {
+  color: #0056b3;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: none;
+}
+
 .top-header .phone {
   margin-right: .25rem;
 }
@@ -172,7 +193,7 @@ body {
 }
 
 label {
-  color: #676767;
+  color: #565656;
   font-weight: 600;
 }
 
@@ -295,21 +316,92 @@ footer .nav-link:hover, footer .nav-link.active {
   color: #313131;
 }
 
+.sidebar-list .nav-link {
+  padding: .05rem 1.5rem;
+  color: #565656;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.sidebar-list .nav-link:focus, .sidebar-list .nav-link:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #2160a8;
+}
+
+.bg-light-grey1 {
+  background-color: #efefef;
+}
+
+.down-arrow {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  padding: .5rem;
+  padding-top: .25rem;
+  color: white;
+  background-color: #676767;
+}
+
+.btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle {
+  color: #212529;
+  background-color: #dbdbdb;
+  border-color: #dbdbdb;
+}
+
+.btn-light:hover {
+  color: #313131;
+  background-color: #dbdbdb;
+  border-color: #dbdbdb;
+}
+
+.btn-light {
+  color: #313131;
+  background-color: #dbdbdb;
+  border-color: #dbdbdb;
+  border-radius: 0;
+  margin-left: -15px;
+  font-weight: 600;
+}
+
+.sidebar .collapse {
+  margin-left: -15px;
+}
+
+.sidebar .collapsing {
+  margin-left: -15px;
+}
+
 @media (max-width: 1199.98px) {}
 
 @media (max-width: 991.98px) {
   .h1, h1 {
-      font-size: 2rem;
+    font-size: 2rem;
   }
+
   .h2, h2 {
     font-size: 1.75rem;
-}
-
+  }
 }
 
 @media (max-width: 767.98px) {
   .top-header {
     font-size: 0.9rem;
+  }
+
+  .sidebar-list .nav-link {
+    padding: .05rem 1.5rem;
+    color: #565656;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  .h4, h4 {
+    color: #565656;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
   }
 
   .navbar-light .navbar-toggler {
