@@ -1,6 +1,7 @@
 body {
   font-family: Arial;
   color: #313131;
+  overflow-x:hidden;
 }
 
 .h1, .h2, .h3, h1, h2, h3 {
@@ -416,7 +417,7 @@ footer .nav-link:hover, footer .nav-link.active {
   }
 
   .navbar-collapse {
-    margin: 0 -15px;
+    margin: 0px;
     background-color: #9d9d9d;
     padding: 1.5rem 0;
     position: absolute;
