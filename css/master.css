@@ -1,7 +1,7 @@
 body {
   font-family: Arial;
   color: #313131;
-  overflow-x:hidden;
+  overflow-x: hidden;
 }
 
 .h1, .h2, .h3, h1, h2, h3 {
@@ -39,6 +39,10 @@ a {
 a:hover {
   color: #0056b3;
   text-decoration: none;
+}
+
+ul {
+  padding-left: 1rem;
 }
 
 .top-header .phone {
@@ -362,16 +366,35 @@ footer .nav-link:hover, footer .nav-link.active {
   background-color: #dbdbdb;
   border-color: #dbdbdb;
   border-radius: 0;
-  margin-left: -15px;
   font-weight: 600;
 }
 
-.sidebar .collapse {
-  margin-left: -15px;
+.light-grey-border {
+  border: .25rem solid #efefef;
 }
 
-.sidebar .collapsing {
-  margin-left: -15px;
+.check li {
+  background: url('../Images/Service/check-mark-mobile.png') no-repeat left top;
+  background-size: contain;
+  height: 38px;
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+  margin-bottom: .5rem;
+}
+
+.check {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.text-404{
+  font-size: 8rem;
+  color: #2160a8;
+  font-weight: 800;
+}
+.font-weight-bolder{
+  font-weight: 800!important;
 }
 
 @media (max-width: 1199.98px) {}
@@ -390,6 +413,12 @@ footer .nav-link:hover, footer .nav-link.active {
   .top-header {
     font-size: 0.9rem;
   }
+
+  .text-404 {
+    font-size: 5rem;
+    color: #2160a8;
+    font-weight: 800;
+}
 
   .sidebar-list .nav-link {
     padding: .05rem 1.5rem;
